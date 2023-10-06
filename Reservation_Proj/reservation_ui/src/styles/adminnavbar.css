@@ -1,0 +1,15 @@
+.adminnavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 100px;
+    background-color: greenyellow;
+    height: 50px;
+}
+
+.adminnavbar a {
+    text-decoration: none !important;
+    font-size: 25px;
+    padding: 0 20px;
+    color: purple;
+}

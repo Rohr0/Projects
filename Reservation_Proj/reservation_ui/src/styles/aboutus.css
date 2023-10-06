@@ -1,0 +1,31 @@
+.aboutus {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.d1,
+.d2,
+.d3 {
+    width: 90%;
+    border-radius: 10px;
+    padding: 5px 20px;
+    background-color: rgb(207, 204, 204);
+}
+
+.busdiv {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.buslist {
+    width: 30%;
+    padding: 0 20px;
+}
+
+.benefits {
+    padding-left: 20px;
+    padding-bottom: 20px;
+}

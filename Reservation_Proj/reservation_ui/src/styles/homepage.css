@@ -1,0 +1,99 @@
+.homepage {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: 380px;
+
+    /* background-color: antiquewhite; */
+}
+
+.search {
+    background: url(https://s3.rdbuz.com/web/images/homeV2/HomeBannerImg.svg) 0% 0% / cover no-repeat;
+    background-repeat: no-repeat;
+}
+
+/* input[type=date]:required:invalid::-webkit-datetime-edit {
+    color: transparent;
+}
+
+input[type=date]:focus::-webkit-datetime-edit {
+    color: black !important;
+} */
+
+.search {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+    background-color: aliceblue;
+
+}
+
+.sform {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sform input,
+button {
+    border: none;
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+    border-radius: 5px;
+    margin-right: 30px;
+
+}
+
+input {
+    padding-right: 50px;
+}
+
+button {
+    background-color: blueviolet;
+    color: beige;
+}
+
+#i1,
+#i2 {
+    position: relative;
+    left: 60px;
+    top: 5px;
+    /* transform: translate(60px, 5px); */
+}
+
+.homepage2 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+}
+
+.homepage2 h2 {
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+}
+
+.offers {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: palegoldenrod;
+}
+
+.offers>img {
+    margin: 10px;
+    overflow: auto;
+    border-radius: 10px;
+    margin-left: 50px;
+    width: 200px;
+    overflow-x: scroll;
+}

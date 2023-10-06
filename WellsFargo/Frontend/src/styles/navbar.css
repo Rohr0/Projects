@@ -1,0 +1,26 @@
+* {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 450;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 20px;
+    padding: 0 100px;
+    color: white;
+    background-color: rgb(241, 51, 51);
+}
+
+.navlinks a {
+    padding: 0 20px;
+    font-size: 18px;
+    text-decoration: none;
+    color: white;
+}
+
+.navlinks a:hover {
+    color: yellow;
+}

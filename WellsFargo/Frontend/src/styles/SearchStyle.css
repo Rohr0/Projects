@@ -1,0 +1,54 @@
+/* Apply styles to the table */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  /* Style table headers */
+  th {
+    background-color: #f2f2f2;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  /* Style table rows */
+  tr.even-row {
+    background-color: #f7f7f7;
+  }
+  
+  tr.odd-row {
+    background-color: #ffffff;
+  }
+  
+  /* Style table cells */
+  td {
+    padding: 8px;
+    border: 1px solid #dddddd;
+  }
+  
+  /* Style pagination controls */
+  .pagination {
+    margin-top: 20px;
+  }
+  
+  .pagination button {
+    padding: 5px 10px;
+    margin-right: 5px;
+    background-color: #007bff;
+    color: #ffffff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .pagination button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  /* Style the page number text */
+  .pagination p {
+    display: inline;
+    margin: 0;
+  }
+  

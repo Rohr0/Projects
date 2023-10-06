@@ -1,0 +1,47 @@
+.signup {
+    height: 500px;
+    width: 400px;
+    transform: translate(900px, 80px);
+    background-color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.signup input {
+    height: 30px;
+    width: 300px;
+    text-align: center;
+    border: none;
+
+}
+
+.signup button {
+    border-radius: 5px;
+    width: 150px;
+    height: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode';
+    font-size: large;
+}
+
+.signup button:hover {
+    cursor: pointer;
+    background-color: antiquewhite;
+}
+
+.signup a {
+    color: blueviolet;
+    text-decoration: none;
+}
+
+.signup a:hover {
+    cursor: pointer;
+    text-decoration: underline;
+
+}
+
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
